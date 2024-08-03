@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  font-family: 'eotIRANSans';
+}
+@layer base {
+  @font-face {
+    font-family: 'eotIRANSans';
+    src: url('./font/ttf/IRANSansWeb\(FaNum\).ttf');
+  }
+}
+html{
+  font-family: BYekan;
+  font-weight: bolder;
+  color: #343434;
+}
