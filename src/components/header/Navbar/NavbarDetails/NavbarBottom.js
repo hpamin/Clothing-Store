@@ -8,7 +8,7 @@ function NavbarBottom() {
     const handleScroll = () => {
         const currentScrollPos = window.scrollY;
         if (prevScrollpos > currentScrollPos) {
-          setNavbarStyle({ top: '9.5vh' });
+          setNavbarStyle({ top: '80%' });
         } else {
           setNavbarStyle({ top: '0' });
         }
@@ -26,7 +26,7 @@ function NavbarBottom() {
     console.log("navbarStyle: ",navbarStyle);
     
   return (
-    <div className={`w-full h-full flex items-center justify-center absolute max-sm:hidden duration-300 -z-10 `} style={prevScrollpos === 0 ? {top: '9.5vh'} : navbarStyle}>
+    <div className={`w-full h-full flex items-center justify-center absolute max-sm:hidden duration-300 -z-10 `} style={prevScrollpos === 0 ? {top: '80%'} : navbarStyle}>
         <ul className='w-[85%] min-h-[8vh] bg-[#6850D3] flex justify-center items-center gap-5 rounded-b-lg shadow-xl'>
             <li className='group px-2 min-h-[8vh] flex items-center cursor-pointer text-white duration-150 relative'> 
                 <p> خانه </p>

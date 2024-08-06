@@ -4,7 +4,7 @@ import { FaPlus } from "react-icons/fa";
 
 function HeaderBottom() {
   return (
-    <section className='w-full min-h-[75vh] flex items-center justify-center'>
+    <section className='w-full min-h-[85vh] flex items-center justify-center'>
         <div className='w-[90%] h-full flex items-center justify-center max-md:flex-col max-md:py-5 '>
             <div className='w-1/2 h-full flex justify-center items-center flex-col gap-5 max-md:w-full max-md:h-fit max-sm:gap-3'>
 
